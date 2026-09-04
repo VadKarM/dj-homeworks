@@ -1,0 +1,280 @@
+[33m92ba82c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mvideo[m[33m)[m Выполнено задание 1.1: добавлены страницы current_time и workdir
+[33m541c22c[m[33m ([m[1;31morigin/video[m[33m)[m Update README.md
+[33m2a29764[m Update README.md
+[33m4a75286[m Update settings.py
+[33m3f9be3c[m Update books.json
+[33m1ba7e1a[m Update README.md
+[33m8e9a205[m Update README.md
+[33mc7b7c0e[m Update README.md
+[33m2a0d405[m Update README.md
+[33m38d06c1[m Update README.md
+[33mf947b3b[m Update README.md
+[33m892ec2e[m Update README.md
+[33m71f8e58[m Update README.md
+[33mf80c882[m Update README.md
+[33m67bc7e8[m Update README.md
+[33mf1d4d0c[m Update README.md
+[33m03c8ad0[m Update README.md
+[33m9a8a153[m Update README.md
+[33me9e69d6[m Update README.md
+[33m572e0ee[m Update README.md
+[33m4a1c09c[m Update README.md
+[33m585f0b7[m Update README.md
+[33mc1bb0b3[m Update README.md
+[33mc80ebc5[m Update README.md
+[33mcf2a6b7[m Update README.md
+[33m80f911c[m Update README.md
+[33m01c498e[m Update README.md
+[33mb6dde38[m Update README.md
+[33mf2b3f10[m Update README.md
+[33m7ac27cf[m Update README.md
+[33m3cec0cf[m Update README.md
+[33m4e874cb[m Update HOW_TO_WORK.md
+[33md85ff59[m Update HOW_TO_WORK.md
+[33m8f5cd83[m Update converters.py
+[33mbb5fddb[m Update README.md
+[33m4540e87[m Update README.md
+[33m104100a[m Update README.md
+[33mb98c23d[m Update HOW_TO_WORK.md
+[33ma09b49a[m Update README.md
+[33m41669b9[m Update settings.py
+[33m503bd48[m Update settings.py
+[33m3dfe1dc[m Update README.md
+[33m7d335e2[m Update requirements.txt
+[33mf6e1b51[m Update HOW_TO_WORK.md
+[33m2ac3f99[m Update README.md
+[33madce1b5[m Update README.md
+[33m43771d9[m Update settings.py
+[33m2e7cfae[m Update README.md
+[33m55ef4a0[m Update HOW_TO_WORK.md
+[33m8cc3372[m Update README.md
+[33md3fb718[m Update README.md
+[33m669c3c5[m Update README.md
+[33me1c0cab[m Update README.md
+[33m5cbec9a[m Update README.md
+[33m7a6f018[m Update README.md
+[33m9641eba[m Update README.md
+[33mc47ef24[m Update README.md
+[33md5f4232[m Update README.md
+[33m2cac8d8[m Update README.md
+[33mbe3b79c[m Update README.md
+[33made47ff[m Update README.md
+[33m56837a3[m Update README.md
+[33m6f56f69[m Update README.md
+[33m9730a33[m Removed old hw
+[33m12c8487[m Added new hw for 3.1
+[33m148fc50[m[33m ([m[1;31morigin/drf[m[33m)[m Update README.md
+[33m52eab2c[m Update README.md
+[33ma56b3cf[m Update README.md
+[33mb0d114c[m Fixed csv
+[33m9e0f585[m Fixed template dirs
+[33mefad1be[m Fixed deps
+[33madde747[m Update README.md
+[33m666fb7a[m Removed old hws
+[33m0310f2c[m Fixed readme
+[33m8d97ccf[m Updated hw 3.3
+[33mfe8ee9e[m Renamed hw 3.4
+[33mb77d7b0[m Fixed Readme
+[33m1b8511c[m Added description for hw 3.2
+[33mf714684[m Added precode for hw 3.2
+[33m4ddc121[m Updated hw 3.1
+[33mb3b50b0[m Fixed task2 in hw 2.2
+[33m2d93f7f[m Updated task 1 in hw 2.2
+[33m9cf0cf0[m Removed unused task in hw 2.2
+[33mc187551[m Fixed 2nd task in hw 2.1
+[33m7728ca7[m Updated hw 2.1
+[33m0e24db7[m Removed additional task
+[33mb2bd502[m Renamed block 2
+[33mdd38949[m Fixed title
+[33mdc7a930[m Updated 1.2
+[33m7eaef92[m Updated first block
+[33mc0a0e58[m Updated readme
+[33mc437d1d[m Renamed 01
+[33m7d6c418[m Removed reqs from root
+[33m39af615[m Updated gitignore
+[33m2126148[m Merge pull request #88 from artrey/master
+[33m4c17db4[m Updated hw precode to django 3.x
+[33m299090b[m Update README.md
+[33m49c9b24[m Update README.md
+[33mafa31be[m Update README.md
+[33m4a375b4[m Update HOW_TO_WORK.md
+[33m07fd07d[m Update README.md
+[33m8178b54[m Update HOW_TO_WORK.md
+[33m69a71f3[m Update README.md
+[33m5d768a4[m Update README.md
+[33me97b05a[m Update README.md
+[33m6619b90[m Merge pull request #87 from prokaktus/explain-landing-task
+[33m3988611[m Explain landing task a little bit
+[33m3991cb3[m Clarify get-usage
+[33me589d5b[m Update README.md
+[33m45d6810[m Update README.md
+[33m470d345[m Update README.md
+[33m41664bc[m Update README.md
+[33m20f2b08[m Merge pull request #85 from prokaktus/add-hw-48
+[33mdc3543c[m Add homework 4.8
+[33m72652d0[m Merge pull request #84 from netology-code/prokaktus-fix-language-code
+[33m9cd2b93[m[33m ([m[1;31morigin/prokaktus-fix-language-code[m[33m)[m Fix language code
+[33m4edd594[m Update README.md
+[33mdd49399[m Update README.md
+[33ma082134[m Update README.md
+[33m38f47db[m Update README.md
+[33mf615463[m Update README.md
+[33mefa069c[m Update README.md
+[33mf2a69eb[m Update README.md
+[33ma7181ca[m Update README.md
+[33m89da805[m Update README.md
+[33m3231f27[m Update README.md
+[33m09aeee4[m Update README.md
+[33m975e39d[m Merge pull request #83 from prokaktus/hw_47
+[33mb10c572[m Homework 4.7
+[33m6e35cfb[m Merge pull request #82 from prokaktus/hw_46
+[33ma37e349[m Add homework for 4.6
+[33m409e1de[m Update README.md
+[33m7d827a6[m Merge pull request #81 from artrey/master
+[33m975b8fc[m Upgraded hw paginator in request-handling to django 3
+[33m8190de3[m Merge pull request #69 from netology-code/dependabot/pip/site-personalization/paid_content/django-2.2.13
+[33m03f21af[m Merge pull request #65 from netology-code/dependabot/pip/django-2.2.13
+[33m4908d14[m Merge pull request #64 from netology-code/dependabot/pip/request-handling/file_server/django-2.2.13
+[33ma48cccc[m Merge pull request #73 from netology-code/dependabot/pip/site-form-works/avia_scanner/django-2.2.13
+[33m08f7079[m Bump django from 2.2.10 to 2.2.13 in /site-form-works/avia_scanner
+[33m00db5f7[m Bump django from 2.2.10 to 2.2.13
+[33m34a63c0[m Bump django from 2.2.10 to 2.2.13 in /site-personalization/paid_content
+[33mbde175b[m Bump django from 2.2.10 to 2.2.13 in /request-handling/file_server
+[33m1c79d1b[m Merge pull request #80 from prokaktus/replace_sqlite_with_psql
+[33m337afeb[m Replace sqlite with postgresql
+[33mfc29a35[m[33m ([m[1;33mtag: [m[1;33mold_homeworks[m[33m)[m Update README.md
+[33m08204fc[m Update README.md
+[33me684781[m Update README.md
+[33mc3a0ec2[m Update README.md
+[33m8d7b2d8[m Merge pull request #79 from artrey/master
+[33m6918a9d[m Removed unused lines
+[33m9920747[m Merge pull request #68 from netology-code/dependabot/pip/dynamic-templates/task3/django-2.2.13
+[33me0e08e3[m Merge pull request #74 from netology-code/dependabot/pip/site-form-works/car_admin/django-2.2.13
+[33mdcd7b12[m Bump django from 2.2.10 to 2.2.13 in /site-form-works/car_admin
+[33m4e3b3de[m Bump django from 2.2.10 to 2.2.13 in /dynamic-templates/task3
+[33ma7ead92[m Merge pull request #76 from netology-code/dependabot/pip/request-handling/pagination/django-2.2.13
+[33m08866fd[m Merge pull request #77 from netology-code/dependabot/pip/first-project/first_project/django-2.2.13
+[33mdeb871b[m Merge pull request #78 from artrey/master
+[33m2ae084b[m Fixed total value position in first row
+[33m0cfad6f[m Bump django from 2.2.10 to 2.2.13 in /first-project/first_project
+[33m75ac142[m Bump django from 2.2.10 to 2.2.13 in /request-handling/pagination
+[33m8220df3[m Merge pull request #62 from prokaktus/fix-old-url-usage
+[33mb3928c6[m Fix old url usage
+[33mdcc51c2[m Merge pull request #36 from netology-code/dependabot/pip/site-form-works/car_admin/pillow-6.2.0
+[33m873042b[m Merge pull request #50 from netology-code/dependabot/pip/django-2.2.10
+[33mc1fb7ef[m Bump pillow from 5.3.0 to 6.2.0 in /site-form-works/car_admin
+[33me0c4f6f[m Bump django from 2.0.5 to 2.2.10
+[33m859dda9[m Merge pull request #61 from prokaktus/bump-django
+[33m41f51dd[m Bump Django version
+[33m12f1d08[m Merge pull request #49 from artrey/patch-1
+[33m24711f3[m Update README.md
+[33mc2975a4[m Merge pull request #35 from roma-guru/patch-1
+[33m3d7bb43[m Fixing Import error on freshly cloned repo
+[33m0ac4c2f[m Fix writing
+[33m8e398a5[m Fix writing
+[33m0420d5d[m Merge pull request #31 from prokaktus/master
+[33mf1cdf28[m Split task into required and optional
+[33m5403e43[m Update README.md
+[33m36c544c[m Update README.md
+[33mbfa9ee5[m Merge pull request #30 from prokaktus/master
+[33mb35bdaa[m Add debug notice
+[33m9858d88[m Add link to first hw
+[33m37379e2[m Merge remote-tracking branch 'upstream/master'
+[33m74de92e[m First homework
+[33m7bf642f[m Update README.md
+[33m0b273d8[m Merge pull request #29 from prokaktus/master
+[33m8df6f5a[m Remove ALLOWED_HOSTS from settings
+[33mca0198c[m Add note about url structure
+[33m284cc60[m Clarify task
+[33m00fe3c8[m Merge pull request #26 from prokaktus/master
+[33m6410c08[m Remove CBV from 6 & 7 homeworks
+[33m04f794e[m Merge pull request #25 from prokaktus/master
+[33m2f90e15[m Remove CBV for hw 5
+[33m47b4049[m Merge pull request #24 from prokaktus/master
+[33m24e6bc0[m Remove CBV from hw 4
+[33m9aacbb4[m Remove CBV from hw 3
+[33m3e37f98[m Merge pull request #23 from prokaktus/master
+[33m148f60d[m Remove CBV part 1
+[33mcafc5e1[m Merge pull request #21 from prokaktus/fix-table-tags
+[33m279da67[m Fix homeworks typos
+[33mfd809d0[m Merge pull request #20 from prokaktus/master
+[33mf03ea94[m Using csv for importing files
+[33m1f4ac9f[m Notes about performance
+[33m3b99e7b[m Merge pull request #19 from VoidArray/fix_3_1_homework
+[33m846ee24[m fix task text
+[33m1832932[m fix 3_1, removed static files
+[33m5dc0bcb[m Update README.md
+[33m79f1def[m Update README.md
+[33mb78947f[m Update README.md
+[33mb9b0d54[m Update README.md
+[33m242bcb6[m Update README.md
+[33mf3a2277[m Update README.md
+[33m5cc9b0c[m Update README.md
+[33m8a8c968[m Update README.md
+[33m86ed6a6[m Update README.md
+[33med855da[m Merge pull request #18 from alkovpro/creating-project
+[33m8094122[m some fixes and improvements
+[33md88287b[m creating-project tasks ready
+[33m620af83[m Merge pull request #17 from prokaktus/fix-small-typos
+[33m493dd8e[m Fix small typos
+[33ma5cc93d[m Merge pull request #16 from VoidArray/3_1_fix_calc
+[33m023a9f8[m fix image, small change template
+[33m25b818f[m Merge pull request #14 from VoidArray/add_db_2
+[33m868f60d[m Merge pull request #15 from VoidArray/add_forms_3
+[33md6d0385[m remove unworking test data
+[33m58be08a[m add homework 3_1 forms
+[33m11a1cfa[m add database 2 hometask
+[33m1c0a86d[m Merge pull request #1 from netology-code/master
+[33m3826682[m Merge pull request #13 from Genomius/db_persinalize_tasks
+[33m6277d52[m Merge branch 'master' into db_persinalize_tasks
+[33m404afa3[m fix
+[33m0c3f65e[m Update README.md
+[33mf0771b1[m Merge pull request #9 from Genomius/db_persinalize_tasks
+[33ma1eac6d[m Добавил последнюю задачу по бд и отрефачил домашки
+[33m5663391[m Update README.md
+[33m672140c[m Merge pull request #12 from prokaktus/remove-local-config
+[33m66b5edd[m Merge branch 'master' into remove-local-config
+[33m7362578[m Remove local config notification
+[33md2a21a0[m Merge pull request #11 from vakimov/master
+[33md1628b2[m Фиксы домашки
+[33m15ceb60[m Правка названия задачи
+[33mafefbe9[m Update README.md
+[33m24e3018[m Update README.md
+[33m1222db5[m Update README.md
+[33mcc4f146[m Update README.md
+[33mf345725[m Merge pull request #8 from prokaktus/master
+[33md0f1312[m Merge branch 'master' into master
+[33m35c5682[m Merge pull request #10 from vakimov/exc/db2_m2m
+[33m39296a7[m Homework #2
+[33m874b639[m Добавил задачу на связи многие ко многим
+[33md285c1d[m Update README.md
+[33m94797e2[m Update README.md
+[33mb2cf065[m Update README.md
+[33me9d4d96[m Merge pull request #6 from Genomius/db_persinalize_tasks
+[33m46b241c[m fix readme
+[33md6d8d5f[m add databases and site personalize tasks
+[33m2ee408e[m Merge pull request #5 from vakimov/exc/pages
+[33md957b3b[m Доделал задание с пагинацией
+[33m6cc3169[m Добавил шаблон для задачи с пагинацией
+[33m60b30fd[m Update README.md
+[33mb2b0023[m Merge pull request #4 from vakimov/develop
+[33m95e2a37[m Убрал лишние скобки
+[33mdd588da[m Правильно оформил задачу с ab-тестированием
+[33meb63b97[m Merge branch 'exc/ab-testing' into develop
+[33m290f05c[m Пополнил .gitignore
+[33m2f2532a[m Merge pull request #3 from vakimov/develop
+[33ma057e23[m Добавил оригинальное название в скобках
+[33m0a5a670[m Подправил структуру и исправил опечатки
+[33m98ab43d[m Убрал решение и дополнил описание задания
+[33m2d13c77[m Привел первое задание к требуемому виду
+[33m2368f8c[m Merge branch 'exc/url-manager' into develop
+[33m214447a[m Basic documentation
+[33m8782457[m Fix mistake
+[33m30cd2d4[m Fix type
+[33m82d408c[m Add static
+[33mf2c2b57[m Describe the task in README.md
+[33mf7452ae[m Describe the task in README.md
+[33mdf1a7fb[m Exercise with commented solution
+[33mcbb3423[m Exercise for url manager
+[33m8ed2ce9[m Create site with ab-testing by url query arg
+[33mce36427[m Initial commit

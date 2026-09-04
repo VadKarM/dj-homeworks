@@ -16,15 +16,38 @@ DATA = {
         'сыр, ломтик': 1,
         'помидор, ломтик': 1,
     },
-    # можете добавить свои рецепты ;)
+    'salad': {
+        'огурец, шт': 2,
+        'помидор, шт': 2,
+        'лук, шт': 1,
+        'масло, ст.л.': 2,
+    },
 }
 
-# Напишите ваш обработчик. Используйте DATA как источник данных
-# Результат - render(request, 'calculator/index.html', context)
-# В качестве контекста должен быть передан словарь с рецептом:
-# context = {
-#   'recipe': {
-#     'ингредиент1': количество1,
-#     'ингредиент2': количество2,
-#   }
-# }
+
+def recipe_view(request, recipe_name):
+    # Получаем рецепт
+    recipe = DATA.get(recipe_name)
+
+    # Если рецепта нет
+    if recipe is None:
+        return render(request, 'calculator/index.html', {'recipe': {}})
+
+    # Проверяем параметр servings
+    servings = request.GET.get('servings')
+
+    # Если servings передан и это число > 0
+    if servings is not None:
+        try:
+            servings = int(servings)
+            if servings > 0:
+                # Умножаем все ингредиенты
+                multiplied_recipe = {}
+                for ingredient, amount in recipe.items():
+                    multiplied_recipe[ingredient] = round(amount * servings, 2)
+                recipe = multiplied_recipe
+        except ValueError:
+            # Если не число — игнорируем
+            pass
+
+    return render(request, 'calculator/index.html', {'recipe': recipe})
