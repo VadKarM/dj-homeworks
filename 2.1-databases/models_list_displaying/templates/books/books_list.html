@@ -1,23 +1,54 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block title %}Каталог книг{% endblock %}
+{% block title %}
+    {% if pub_date %}
+        Книги, опубликованные {{ pub_date|date:"Y-m-d" }}
+    {% else %}
+        Каталог книг
+    {% endif %}
+{% endblock %}
+
 {% block content %}
     <div class="container">
         <div class="header">
             <h1><a href="/books">Каталог</a></h1>
         </div>
+
         <div class="row">
-            <div class="book col-md-4">
-                <h2>Сияние</h2>
-                <p>Автор: Стивен Кинг</p>
-                <p>Дата публикации: 2018-09-10</p>
-            </div>
-            <div class="book col-md-4">
-                <h2>1984</h2>
-                <p>Автор: Джордж Оруэл</p>
-                <p>Дата публикации: 2015-03-11</p>
-            </div>
+            {% for book in books %}
+                <div class="book col-md-4">
+                    <h2>{{ book.name }}</h2>
+                    <p>Автор: {{ book.author }}</p>
+                    <p>Дата публикации: {{ book.pub_date|date:"Y-m-d" }}</p>
+                </div>
+            {% empty %}
+                <p>Книги не найдены.</p>
+            {% endfor %}
         </div>
+
+        {# ===== БЛОК НАВИГАЦИИ ===== #}
+        {% if pub_date %}
+            <div style="margin-top: 50px; padding: 20px 0; border-top: 2px solid #eee; text-align: center; font-size: 18px;">
+                {# КНОПКА НАЗАД — показываем ТОЛЬКО если есть prev_date #}
+                {% if prev_date %}
+                    <a href="/books/{{ prev_date|date:'Y-m-d' }}/" style="color: #007bff; text-decoration: none; padding: 10px 20px; background: #f0f0f0; border-radius: 5px;">
+                        &lt; {{ prev_date|date:"Y-m-d" }}
+                    </a>
+                {% endif %}
+
+                {# РАЗДЕЛИТЕЛЬ — показываем ТОЛЬКО если есть prev_date ИЛИ next_date #}
+                {% if prev_date and next_date %}
+                    <span style="margin: 0 20px; color: #ccc;">|</span>
+                {% endif %}
+
+                {# КНОПКА ВПЕРЕД — показываем ТОЛЬКО если есть next_date #}
+                {% if next_date %}
+                    <a href="/books/{{ next_date|date:'Y-m-d' }}/" style="color: #007bff; text-decoration: none; padding: 10px 20px; background: #f0f0f0; border-radius: 5px;">
+                        {{ next_date|date:"Y-m-d" }} &gt;
+                    </a>
+                {% endif %}
+            </div>
+        {% endif %}
     </div>
 {% endblock %}

@@ -53,10 +53,12 @@ MIDDLEWARE = [
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'netology_models_list',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.postgresql',  # ← ДЛЯ POSTGRESQL
+        'NAME': 'netology_models_list',              # ← ИМЯ БАЗЫ ДАННЫХ
+        'USER': 'postgres',                          # ← ПОЛЬЗОВАТЕЛЬ (обычно postgres)
+        'PASSWORD': '12345',                 # ← ПАРОЛЬ (который ты установил)
+        'HOST': 'localhost',                         # ← или 127.0.0.1
+        'PORT': '5432',                              # ← ПОРТ (по умолчанию 5432)
     }
 }
 
