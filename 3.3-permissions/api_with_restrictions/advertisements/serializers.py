@@ -42,6 +42,12 @@ class AdvertisementSerializer(serializers.ModelSerializer):
 
         request = self.context.get('request')
         if request and request.user.is_authenticated:
+            # При обновлении не проверяем, если не меняем статус на OPEN
+            if self.instance:
+                old_status = self.instance.status
+                new_status = data.get('status', old_status)
+                if new_status != 'OPEN':
+                    return data
             open_count = request.user.advertisement_set.filter(status='OPEN').count()
             if open_count >= 10:
                 raise serializers.ValidationError(
